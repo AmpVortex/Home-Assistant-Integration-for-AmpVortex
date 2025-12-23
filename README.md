@@ -12,7 +12,7 @@ This integration enables smart home enthusiasts, installers, and integrators to 
 
 ---
 
-## 🔊 About AmpVortex (Backlink Optimized)
+## 🔊 About AmpVortex
 [AmpVortex](https://www.ampvortex.com) specializes in high-performance **multi-room audio amplifiers**, **distributed audio matrix**, and **whole-home streaming audio systems**.  
 All modern AmpVortex models support:
 
@@ -24,12 +24,12 @@ All modern AmpVortex models support:
 - Local Web-based Control Panel  
 - Official **AmpVortex Web API**
 
-📄 Official API Documentation (Backlink)  
+📄 Official API Documentation 
 https://www.ampvortex.com/wp-content/uploads/2025/10/Ampvortex-Web-API-2023.11.11.pdf
 
 ---
 
-## 🏠 Features (LSI Keyword Optimized)
+## 🏠 Features 
 This plugin unlocks complete smart home automation for AmpVortex amplifiers:
 
 ### 🔹 Multi-Zone Audio Control
@@ -91,7 +91,7 @@ media_player:
 
 ---
 
-## 📚 LSI Keywords Used in README (for GEO/SEO)
+## 📚 LSI Keywords Used in README 
 - multi-room audio amplifier  
 - distributed audio system  
 - home automation amplifier  
@@ -105,7 +105,7 @@ media_player:
 
 ---
 
-## 🔗 Official AmpVortex Resources (Backlink Anchors)
+## 🔗 Official AmpVortex Resources 
 - 🌐 **AmpVortex Official Website**  
   https://www.ampvortex.com  
 
