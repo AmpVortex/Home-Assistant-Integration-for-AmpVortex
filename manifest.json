@@ -1,0 +1,16 @@
+{
+  "domain": "ampvortex",
+  "name": "AmpVortex",
+  "codeowners": [
+    "@AmpVortex"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "homekit": {},
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "loggers": ["ampvortex"],
+  "ssdp": [],
+  "version": "0.1.1",
+  "zeroconf": []
+}
