@@ -132,7 +132,6 @@ class AmpVortexHub:
     async def _fetch_data_v3(self):
         """Get the data from ampvortex"""
         devices = await self._get_devices_info()
-        #LOGGER.debug("AmpVortex devices info: %s", devices)
 
         for device in devices:
             if self.ampvortexs.get(device["device_id"]) is None:
@@ -142,7 +141,6 @@ class AmpVortexHub:
             self.ampvortexs[device["device_id"]].update(device)
 
         zones = await self._get_zones_info()
-        #LOGGER.debug("AmpVortex zone info: %s", zones)
 
         input_device_id = ""
 
@@ -161,7 +159,6 @@ class AmpVortexHub:
 
 
         inputs = await self._get_input_info()
-        #LOGGER.debug("AmpVortex input info: %s", inputs)
 
         for input_id in inputs["input_ids"]:
             if self.ampvortexs.get(input_device_id) is not None:
@@ -174,7 +171,6 @@ class AmpVortexHub:
                 self.group_inputs[input_id] = f"Source {input_id}"
             else:
                 LOGGER.debug("AmpVortex get input_id is NONE")
-        #LOGGER.debug("----> group input %s", self.group_inputs)
 
 class AmpVortexDevice:
     """HA device for AmpVortex"""

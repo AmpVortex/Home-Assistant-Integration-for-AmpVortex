@@ -1,16 +1,18 @@
 {
   "domain": "ampvortex",
   "name": "AmpVortex",
+  "version": "0.1.3",
+  "documentation": "https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex",
+  "issue_tracker": "https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex/issues",
   "codeowners": [
     "@AmpVortex"
   ],
   "config_flow": true,
-  "dependencies": [],
-  "homekit": {},
   "integration_type": "hub",
   "iot_class": "local_polling",
-  "loggers": ["ampvortex"],
-  "ssdp": [],
-  "version": "0.1.2",
-  "zeroconf": []
+  "requirements": [],
+  "dependencies": [],
+  "loggers": [
+    "custom_components.ampvortex"
+  ]
 }
