@@ -1,8 +1,8 @@
 # AmpVortex Home Assistant Integration
 [![AmpVortex](https://img.shields.io/badge/AmpVortex-Official-blue)](https://www.ampvortex.com/)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
-[![GitHub Release](https://img.shields.io/github/release/AmpVortex/HomeAssistant-Integration-for-AmpVortex.svg)](https://github.com/AmpVortex/HomeAssistant-Integration-for-AmpVortex/releases)
-[![License](https://img.shields.io/github/license/AmpVortex/HomeAssistant-Integration-for-AmpVortex.svg)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/release/AmpVortex/HomeAssistant-Integration-for-AmpVortex.svg)](https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex/releases)
+[![License](https://img.shields.io/github/license/AmpVortex/HomeAssistant-Integration-for-AmpVortex.svg)](https://github.com/AmpVortex/Home-Assistant-Integration-for-AmpVortex/blob/master/LICENSE)
 
 *Official Custom Component for AmpVortex Multi-Room Streaming Amplifiers*
 
