@@ -1,6 +1,9 @@
+# AmpVortex Home Assistant Integration
 [![AmpVortex](https://img.shields.io/badge/AmpVortex-Official-blue)](https://www.ampvortex.com/)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
+[![GitHub Release](https://img.shields.io/github/release/AmpVortex/HomeAssistant-Integration-for-AmpVortex.svg)](https://github.com/AmpVortex/HomeAssistant-Integration-for-AmpVortex/releases)
+[![License](https://img.shields.io/github/license/AmpVortex/HomeAssistant-Integration-for-AmpVortex.svg)](LICENSE)
 
-# AmpVortex Home Assistant Integration Plugin
 *Official Custom Component for AmpVortex Multi-Room Streaming Amplifiers*
 
 ## 🚀 Introduction
@@ -63,6 +66,7 @@ Perfect for privacy-focused smart homes.
 
 ## 📦 Installation
 
+### 🔹 Manual Installation
 1. Copy the `ampvortex` directory into:
 ```
 /config/custom_components/
@@ -81,12 +85,72 @@ Done. Full integration activated.
 
 ---
 
-## 🔧 YAML Example
+### 🔹 HACS Installation
+
+1. Open HACS
+
+2. Go to:  
+Integrations
+
+3. Click:  
+⋮ → Custom repositories
+
+4. Add repository:  
+https://github.com/AmpVortex/HomeAssistant-Integration-for-AmpVortex
+
+5. Category:  
+Integration
+
+6. Search for:  
+OpenAudio
+
+7. Install and restart Home Assistant.
+
+---
+
+## 🔧 Configuration
+
+1. Open Home Assistant
+
+2. Navigate to:  
+Settings → Devices & Services
+
+3. Click:  
+Add Integration
+
+4. Search for:  
+AmpVortex
+
+5. Enter:  
+- AmpVortex device IP address
+- Polling interval
+
+---
+
+## 📚 Screenshots
+
+### 🔹 Media Player
+
+![Zones](screenshots/zone.png)
+![Sources](screenshots/source.png)
+![Zone Player](screenshots/zone_player.png)
+![Source Player](screenshots/source_player.png)
+
+### 🔹 Device Configuration
+
+![Config](screenshots/configuration.png)
+![Device Create](screenshots/device_create.png)]
+
+---
+
+## 🔧 Debug Logging
+
+Add the following to `configuration.yaml`:
+
 ```yaml
-media_player:
-  - platform: ampvortex
-    host: 192.168.1.120
-    name: Living Room Amplifier
+logger:
+logs:
+ custom_components.ampvortex: debug
 ```
 
 ---
