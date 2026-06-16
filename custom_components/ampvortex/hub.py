@@ -17,6 +17,7 @@ class AmpVortexHub:
     ) -> None:
         self._hass = hass
         self._ip_address = ip_address
+        self._hub_id = ip_address
         self.ampvortexs = {}
         self.group_inputs = {}
         self.client = None
@@ -147,6 +148,7 @@ class AmpVortexHub:
         for z in zones:
             zone_id_parts = z["zone_id"].split("-")
             parts_size = len(zone_id_parts)
+            zone_device_id = ""
             for i in range(parts_size - 1):
                 if i == 0:
                     zone_device_id = zone_id_parts[i]
